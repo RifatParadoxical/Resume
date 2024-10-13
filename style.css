@@ -43,9 +43,8 @@
 @media (max-width: 600px) {
   .pdf{
     width: 95vw;
-    height: 100vh;
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin-left:3vw;
+    margin-right:2vw;
   }
 }
