@@ -42,10 +42,9 @@
     }
 @media (max-width: 600px) {
   .pdf{
-    width: 95vw;
+    width: 100vw;
     padding: 0;
-    margin-left:3vw;
-    margin-right:2vw;
+    margin: 0;
   }
   .pdff{
     margin-left: 1rem;
