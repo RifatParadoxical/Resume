@@ -2,23 +2,21 @@
         box-sizing: border-box;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 16px;
+        margin: 0;
+        padding: 0;
     }
     body{
         background: url(9d7caf002efa649234adcec4aadb96fc.jpg) no-repeat fixed center;
         background-size: cover;
-        display: flex;
-        justify-content: center;
     }
     .pdf{
-        width: 70vw;
-        min-width: 520px;
         background-color: white;
-        padding: 50px;
-        margin: 30px;
+    }
+    .pdff{
+        padding: 1rem;
     }
     .color{
         color: rgb(255, 85, 85);
-    
     }
     .strng{
         font-weight: 600;
@@ -40,12 +38,9 @@
         border-radius: 10px;
         text-decoration: none;
     }
-@media (max-width: 600px) {
+@media (min-width: 800px) {
   .pdf{
-    width: 100vw;
-    padding: 0;
-    margin: 0;
+    width: 70vw;
+    margin: auto;
   }
-  .pdff{
-    margin-left: 1rem;
 }
