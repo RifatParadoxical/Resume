@@ -11,9 +11,10 @@
     }
     .pdf{
         background-color: white;
+        padding: 1rem;
     }
     .pdff{
-        padding: 1rem;
+        padding: 2rem;
     }
     .color{
         color: rgb(255, 85, 85);
@@ -34,9 +35,12 @@
         background-color: blueviolet;
         color: white;
         padding: 1rem;
-        margin-top: 10px;
+        margin: 2rem;
         border-radius: 10px;
         text-decoration: none;
+    }
+    ul{
+        list-style-type: none;
     }
 @media (min-width: 800px) {
   .pdf{
